@@ -1,0 +1,2 @@
+serviceClass: com.google.gwt.sample.crimehub.client.LoginService
+path: 3D892399B7FA4EB685AE0854EE41E3C8.gwt.rpc

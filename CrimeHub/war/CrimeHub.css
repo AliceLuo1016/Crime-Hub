@@ -1,0 +1,239 @@
+/** Add css rules here for your application. */
+/** Example rules used by the template application (remove for your app) */
+
+
+#logout {
+	text-align: right;
+}
+
+#loading {
+	display: block;
+	text-align: center;
+}
+
+.sendButton {
+	display: block;
+	font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.crimesFlexTable {
+	
+}
+
+.dialogVPanel {
+	margin: 5px;
+}
+
+.daterange {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.goButton {
+	margin-left: 10px;
+}
+
+.dateErrorLabel {
+	margin-left: 13px;
+	color: white;
+}
+
+.resetButton {
+	margin-left: 10px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}
+
+/* Formatting specific to the StockWatcher application */
+body {
+	padding: 10px;
+	padding-bottom: 100px;
+}
+
+/* stock list header row */
+.CrimeTableHeader {
+	background-color: #C0C0C0;
+	color: white;
+	font-style: italic;
+}
+
+.Button {
+	text-align: Center;
+	width: 200px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.addPanel {
+	margin-bottom: 30px;
+}
+
+.countLabel {
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.loadingLabel {
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* stock list Price and Change fields */
+.CrimeTableNumericColumn {
+	text-align: Center;
+	width: 300px;
+}
+
+h2 {
+	font-stretch: narrower;
+	font-weight: 500;
+	margin: 4px;
+}
+
+#hm-map {
+	margin: 10px;
+}
+
+/* Add some space between the blue border and the interior stuff */
+.hm-outerpanel {
+	margin: 10px;
+}
+
+.wMap {
+	margin-top: 100px;
+}
+
+/*
+ * ScrollTable
+ */
+.gwt-ScrollTable {
+	background: white;
+	border-color: #aaa;
+	border-style: solid;
+	border-width: 1px 0px 1px 1px;
+}
+
+.gwt-ScrollTable .headerWrapper {
+	background: #8bd url(../images/bg_header_gradient.gif) repeat-x bottom
+		left;
+}
+
+.gwt-ScrollTable .footerWrapper {
+	border-top: 1px solid #aaa;
+	background: #8bd url(../images/bg_header_gradient.gif) repeat-x bottom
+		left;
+}
+
+.gwt-ScrollTable .dataTable td,.gwt-ScrollTable .headerTable td,.gwt-ScrollTable .footerTable td
+	{
+	border-color: #aaa;
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.gwt-ScrollTable .headerTable td,.gwt-ScrollTable .footerTable td {
+	color: #fff;
+}
+
+.gwt-ScrollTable .dataTable tr.selected td {
+	background: #7AA5D6;
+}
+
+/**
+ * Applied to the options at the bottom of the page.
+ */
+.gwt-PagingOptions {
+	background: #e8eef7;
+	border: 1px solid #aaa;
+	border-top: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gwt-PagingOptions .errorMessage {
+	color: red;
+}
+
+.pagingOptionsFirstPage,.pagingOptionsLastPage,.pagingOptionsNextPage,.pagingOptionsPrevPage
+	{
+	cursor: hand;
+	cursor: pointer;
+}
+
+.saveBtn {
+	margin-left: 20px;
+}
+
+/** Applied to AbstractOptions */
+.AbstractOption-Label {
+	font-weight: bold;
+	text-align: right;
+}
+
+/* facebook stuff */
+
+#body {
+	padding: 10px;
+	padding-bottom: 60px; /* Height of the footer */
+}
+
+#footer {
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	top: 950px;
+	width: 100%;
+	height: 100px; /* Height of the footer */
+}
+
+.mainPanel {
+	background-color: #656665;
+}
+
+.loadPanel {
+	margin-top: -50px;
+	background-color: #222222;
+}
+
+.linkPanel {
+	margin-bottom: 25px;
+}
+
+.psTable {
+	margin-bottom: 25px;
+}
+
+.welcomePanel {
+	background-color: #656665;
+}
+
+.mapPanel {
+	background-color: #656665;
+}
+
+.searchPanel {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.whiteText {
+	color: white;
+}

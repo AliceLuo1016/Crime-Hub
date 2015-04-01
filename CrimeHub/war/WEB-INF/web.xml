@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+
+	<!-- Servlets -->
+
+	<servlet>
+		<servlet-name>crimeService</servlet-name>
+		<servlet-class>com.google.gwt.sample.crimehub.server.CrimeServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>crimeService</servlet-name>
+		<url-pattern>/crimehub/Crime</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>parserService</servlet-name>
+		<servlet-class>com.google.gwt.sample.crimehub.server.ParserServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>parserService</servlet-name>
+		<url-pattern>/crimehub/Parse</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.google.gwt.sample.crimehub.server.LoginServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/crimehub/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>remoteLoggingServiceImpl</servlet-name>
+		<servlet-class>com.google.gwt.libideas.logging.server.RemoteLoggingServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>remoteLoggingServiceImpl</servlet-name>
+		<url-pattern>/crimehub/logging</url-pattern>
+	</servlet-mapping>
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>CrimeHub.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>

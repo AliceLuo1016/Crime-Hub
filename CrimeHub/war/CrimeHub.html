@@ -1,0 +1,128 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--                                                               -->
+<!-- Consider inlining CSS to reduce the number of requested files -->
+<!--                                                               -->
+<link type="text/css" rel="stylesheet" href="CrimeHub.css">
+<link type="text/css" rel="stylesheet" href="bootstrap.css">
+
+<!-- Custom css file -->
+<link type="text/css" rel="stylesheet" href="cover.css">
+
+<!--                                           -->
+<!-- Any title is fine                         -->
+<!--                                           -->
+<title>CrimeHub</title>
+
+<!--                                           -->
+<!-- This script loads your compiled module.   -->
+<!-- If you add any GWT meta tags, they must   -->
+<!-- be added before this line.                -->
+<!--                                           -->
+<script type="text/javascript" language="javascript"
+	src="crimehub/crimehub.nocache.js"></script>
+
+</head>
+
+<!--                                           -->
+<!-- The body can have arbitrary html, or      -->
+<!-- you can leave the body empty if you want  -->
+<!-- to create a completely dynamic UI.        -->
+<!--                                           -->
+
+<body style="background: rgba(0,0,0,0)">
+
+	<!-- OPTIONAL: include this if you want history support -->
+	<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1'
+		style="position: absolute; width: 0; height: 0; border: 0"></iframe>
+
+	<!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+	<noscript>
+		<div
+			style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+			Your web browser must have JavaScript enabled in order for this
+			application to display correctly.</div>
+	</noscript>
+	<div class="site-wrapper">
+
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+				<div class="masthead clearfix">
+					<div class="inner">
+						<h3 class="masthead-brand"><a href="/" style="color:white">Team CrimeDataAnalysis</a></h3>
+						<nav>
+							<ul class="nav masthead-nav">
+								<li class="active"><a href="CrimeHub.html">Home</a></li>
+								<li><div id="signin"></div></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="inner cover">
+					<div class=jumbotron>
+						<img src="/images/projectlogowithshadow.png"
+							style="width: 600px; height: auto;">
+					</div>
+				</div>
+				<div class="mastfoot">
+					<div class="inner">
+						<p>Project for CPSC310, by Daniel, Alice, Norman, and Jimmy</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="hm-map"></div>
+
+	<iframe src="javascript:''" id='__gwt_historyFrame'
+		style='width: 0; height: 0; border: 0'></iframe>
+	<script src="http://www.google-analytics.com/urchin.js"
+		type="text/javascript"></script>
+	<script type="text/javascript">_uacct = "UA-2494387-1";urchinTracker();</script>
+	<script
+		src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2&amp;key=ABQIAAAARrCK38aboqQKDotehUjrPhTb-vLQlFZmc2N8bgWI8YDPp5FEVBQ-MFjXfKfAvdbsbp3pa0q7fQNDDA"></script>
+
+	<!-- Loading icon -->
+	<div id="loading">
+		<h1 style='color:white'>You must login to view our data.</h1>
+	</div>
+
+	<script>
+  	window.fbAsyncInit = function() {
+    	FB.init({
+      	appId      : '1554553164781136',
+      	xfbml      : true,
+      	version    : 'v2.2'
+    	});
+  	};
+
+  	(function(d, s, id){
+     	var js, fjs = d.getElementsByTagName(s)[0];
+     	if (d.getElementById(id)) {return;}
+     	js = d.createElement(s); js.id = id;
+     	js.src = "//connect.facebook.net/en_US/sdk.js";
+     	fjs.parentNode.insertBefore(js, fjs);
+   	}(document, 'script', 'facebook-jssdk'));
+	</script>
+	
+	<div class="cover-container">
+		<div id="footer">
+			<div class="jumbotron" style="background-color:black">
+				<div class="fb-comments"
+					data-href="http://1-dot-top-zoo-762.appspot.com/" data-width="700"
+					data-numposts="3" data-colorscheme="dark"></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

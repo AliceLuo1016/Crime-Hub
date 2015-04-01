@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/gwt-maps.jar"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/gwt-visualization-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/gwt-visualization-noredist.jar"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/gwt-visualization.jar"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/commons-csv-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/gwt-incubator-20101117-r1766.jar"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/restfb-1.7.0.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/gwt-maps-api-3.10.0-alpha-7.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
